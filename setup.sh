@@ -16,6 +16,7 @@ setup()
     $DIR/node_install.sh || true 
     $DIR/fish_install.sh || true
     $DIR/python_install.sh || true
+    $DIR/shared_folder_setup.sh || true
 }
 
 set -e
